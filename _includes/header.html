@@ -1,0 +1,5 @@
+<header>
+  <h1> Erika Bahnik </h1>
+  {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+  {% if page.date %}{{ page.date | date: "%d %B %Y" }}<br/><br/>{% endif %}
+</header>
